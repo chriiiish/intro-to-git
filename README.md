@@ -3,23 +3,23 @@ An introduction to Git, Version Control and GitHub
 
 
 ## Contents
-1. What you'll need before you start
-2. Version Control
+1. [What you'll need before you start](#what-youll-need-before-you-start)
+2. [Version Control](#version-control)
     1. What is the purpose of version control?
     2. What are the core components of version control?
     3. What is Subversion and Git
-3. How Git works
+3. [Git](#git)
     1. Phrases
     2. Exploring things in GitHub
     3. Clone, Change, Commit, Push
     4. Seeing the difference
     5. Make a mistake - undo the change
     6. Merging Changes
-4. Github Features
+4. [Github Features](#github-features)
     1. Using branches
     2. Using pull requests
-5. Terminology Wrapup
-6. Quick Git Commands
+5. [Terminology Wrapup](#terminology-wrapup)
+6. [Quick Git Commands](#quick-git-commands)
 
 
 ## What you'll need before you start
