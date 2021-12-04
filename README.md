@@ -16,3 +16,8 @@ An introduction to Git, Version Control and GitHub
 4. Github Features
     1. Using branches
     2. Using pull requests
+
+## What you'll need before you start
+1. Install Git ([windows](https://git-scm.com/download/win)|[mac](https://git-scm.com/download/mac))
+2. Install [Visual Studio Code](https://code.visualstudio.com/) or use a text editor of your choice
+3. A Github Account ([sign up](https://github.com/signup)|[sign in](https://github.com/login))
