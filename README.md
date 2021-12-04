@@ -89,6 +89,19 @@ This is Git specific. Here's a bunch of phrases to help you get familiar with th
   5. Click into a commit by clicking on the **commit message**. Look for the 
      1. Commit message and description
      2. What branch it was committed to
-     3. The commit hash (that looks like '57b93de3b28ca38121ab286140a22dedeb2e89a7')
-     4. The files that have changed and the changes that were made
+     3. When the commit was made
+     4. Who made the commit
+     5. The commit hash (that looks like '57b93de3b28ca38121ab286140a22dedeb2e89a7')
+     6. The files that have changed and the changes that were made
 </details>
+
+GitHub has many other functions too. We won't go into them in detail but have a quick look at the tabs at the top:
+
+**Issues** - *You can create tickets like "fix problem with x" or "add ability to do y". The issues section tracks these tickets*  
+**Pull Requests** - *You can make a change, but before it gets merged into the main branch you can force a review of the code. Pull requests are requests for some code to be pulled into a branch*  
+**Actions** - *Automated actions (build code, deploy code, etc.) that you can setup so that when you make a change it deploys that change out to the live website (for example)*  
+**Projects** - *Organise the tickets you created into different board layouts here. Useful for project management stuff.*  
+**Wiki** - *A place to store documentation about the repository*  
+**Security** - *Security overview of the repository - are the dependencies up to date? Do you have security vulnerabilities in your code? Here's where you find that information*  
+**Insights** - *Statistics on repository activity*  
+**Settings** - *Settings like public/private, branch protection (who can push to a branch), etc.*  
