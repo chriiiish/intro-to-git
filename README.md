@@ -9,7 +9,7 @@ An introduction to Git, Version Control and GitHub
     2. What are the core components of version control?
     3. What is Subversion and Git
 3. How Git works
-    1. Terminology
+    1. Phrases
     2. Exploring things in GitHub
     3. Clone, Change, Commit, Push
     4. Seeing the difference
@@ -18,6 +18,7 @@ An introduction to Git, Version Control and GitHub
 4. Github Features
     1. Using branches
     2. Using pull requests
+5. Terminology Wrapup
 
 
 ## What you'll need before you start
@@ -57,7 +58,7 @@ Git is much more commonplace these days due to its flexibility and the fact that
 ## Git
 Time to get into the fun stuff
 
-### Terminology
+### Phrases
 This is Git specific. Here's a bunch of phrases to help you get familiar with the lingo:
   1. *I cloned the repo*  
      I took a copy of the repository on the server and downloaded it to my local computer  
@@ -75,4 +76,19 @@ This is Git specific. Here's a bunch of phrases to help you get familiar with th
      I've pushed the commits on my local branch to the server  
      `git push origin your-branch-name`
  
- 
+ ### Exploring things in GitHub
+ <details>
+  <summary>Task: Find the history for this repository</summary>
+    
+  #### To show the list of commits with the files that have changed:
+  1. On this page, find the green "Code" button near the top
+  2. Below this button look for the phrase "XX commits"
+  3. Click the XX number
+  4. Have a look at the history from the beginning
+     You should see a bunch of descriptions. These are the **commits**
+  5. Click into a commit by clicking on the **commit message**. Look for the 
+     1. Commit message and description
+     2. What branch it was committed to
+     3. The commit hash (that looks like '57b93de3b28ca38121ab286140a22dedeb2e89a7')
+     4. The files that have changed and the changes that were made
+</details>
