@@ -184,3 +184,17 @@ git commit -m "your-message-here"
 # Push the change up to GitHub
 git push
 ```
+
+
+### Seeing the difference
+To view the change you can run the following command:
+```
+git log
+```
+This will show you the commit history. You can run this command to see what changed:
+```
+git diff commit-hash
+```
+where commit-hash is the id of the commit you want to see the difference between
+
+Of course there are easier ways to see it in GitHub. Have a look at the commit history if you've pushed the branch to GitHub.
