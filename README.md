@@ -71,8 +71,8 @@ This is Git specific. Here's a bunch of phrases to help you get familiar with th
      git add .
      git commit -m your-message-here
      ```
-  4. *I've pushed those changes*
-     I've pushed the commits on my local branch to the server
+  4. *I've pushed those changes*  
+     I've pushed the commits on my local branch to the server  
      `git push origin your-branch-name`
  
  
