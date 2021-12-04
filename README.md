@@ -19,6 +19,7 @@ An introduction to Git, Version Control and GitHub
     1. Using branches
     2. Using pull requests
 5. Terminology Wrapup
+6. Quick Git Commands
 
 
 ## What you'll need before you start
@@ -198,3 +199,52 @@ git diff commit-hash
 where commit-hash is the id of the commit you want to see the difference between
 
 Of course there are easier ways to see it in GitHub. Have a look at the commit history if you've pushed the branch to GitHub.
+
+
+### Make a mistake - undo the change  
+//todo
+
+
+### Merging Changes
+//todo
+
+
+## Github Features
+
+### Using branches
+//todo
+
+
+### Using pull requests
+//todo
+
+
+## Terminology Wrapup
+
+Repository  
+Branch  
+Local Branch  
+Working Directory  
+Commit
+Commit Hash  
+Commit History  
+Pull Request  
+
+## Quick Git Commands
+
+```
+# Add all files to the next commit
+git add .
+
+# Commit to your local branch 
+git commit -m "your-message"
+
+# Push to GitHub
+git push
+
+# See git change log
+git log
+
+# See changes 
+git diff
+```
