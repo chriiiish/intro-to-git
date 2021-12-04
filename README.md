@@ -105,3 +105,75 @@ GitHub has many other functions too. We won't go into them in detail but have a 
 **Security** - *Security overview of the repository - are the dependencies up to date? Do you have security vulnerabilities in your code? Here's where you find that information*  
 **Insights** - *Statistics on repository activity*  
 **Settings** - *Settings like public/private, branch protection (who can push to a branch), etc.*  
+
+
+### Clone, Change, Commit, Push
+Here we are going to clone the repository that you're looking at right now and make a change to it.
+
+**NOTE: You must be given permission to this repository to do this**
+*Alternatively, fork (make a copy of) this repository in your own GitHub account by clicking the "Fork" link in the top-right corner of the page.
+
+<details>
+   <summary>Clone the Repo</summary>
+
+   #### Clone the repository to your local computer
+   1. Click on the green "Code" button
+   2. If you know what you're doing use SSH, otherwise choose HTTPS
+   3. Copy the URL
+   4. Open a terminal/powershell window and run
+      ```
+      git clone https://paste-url-here
+      ```
+   5. This will clone the repository from GitHub to your computer in a folder called `intro-to-git`
+</details>
+
+<details>
+   <summary>Add a file</summary>
+
+   #### Create a personal file to be remembered by
+   1. Open the repository on your local computer in Visual Studio Code
+   2. Add a new file to the `people` folder with your name (internet name or otherwise ;) )
+   3. Add some text to the file
+   4. Open up a terminal/powershell window and navigate into the `intro-to-git` folder
+   5. Run the following command to add the file you added to the commit
+      ```
+      git add .
+      ```
+   You have now added a new file, and told git you want to add it to the next commit you make
+</details>
+
+<details>
+   <summary>Make a commit</summary>
+
+   #### Create a commit on your local branch
+   1. At this stage you should have your new file ready to roll. You can confirm this by running
+      ```
+      git status
+      ```
+   2. To make the commit, and store the change in your repository run
+      ```
+      git commit -m "My commit message"
+      ```
+   3. Volia! You have committed your first change into the respository
+</details>
+
+<details>
+   <summary>Push your changes back to the central repository (GitHub)</summary>
+
+   To push your changes to the central repository you just need to run:
+   ```
+   git push
+   ```
+</details>
+
+In summary:
+```
+# Add all changed files to the next commit
+git add . 
+
+# Commit the change to your local branch
+git commit -m "your-message-here"
+
+# Push the change up to GitHub
+git push
+```
